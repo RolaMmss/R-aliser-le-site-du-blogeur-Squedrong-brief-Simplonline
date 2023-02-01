@@ -15,8 +15,14 @@
     /* font-weight: bold; */
   }
 
-  nav a {
+  nav a {         /* or nav ul li a */
     color : grey;
+    font-size: large;
+    transition: color 0.3s;
+  }
+
+  nav ul li a:hover{
+    color: #66F;
   }
 
   main {
@@ -103,7 +109,9 @@ main img {
 
   h1 {
     font-family: "Abril Fatface";
+    font-size: large;
     color :rgb(226, 61, 177);
+    font-weight: 600;
   }
 
   h4 {
@@ -141,9 +149,9 @@ main img {
     /* font-family: "Abril Fatface"; */
   }
 
-  li.blog a {
+  /* li.blog a {
     color : rgb(54, 13, 131);
-  }
+  } */
 
   header section, li {
     display: flex;
